@@ -3,7 +3,7 @@ Distance:   277   1136   1890   1768`;
 
 function main() {
     const [time, dist] = input.split('\n').map((l) => Number(l.slice(9).trim().replaceAll(' ', '')));
-    const error = Math.sqrt(time * time / 4 - dist);
+    const error = Math.sqrt(time * time / 4 - dist - 1);
     const lower = Math.ceil(time / 2 - error);
     const upper = Math.floor(time / 2 + error);
     return upper - lower + 1;
