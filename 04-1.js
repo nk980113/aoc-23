@@ -216,13 +216,21 @@ Card 215: 46 68 79 92 50 22 47 89 28 34 | 29 87  6 35 20 81 15 10 71 96 77 44 55
 Card 216: 43 38 30 79 14 47 64  5  8 50 | 70 26 63 98 86 20 59 74  3 41 34 49 78 28 55 67 89 68 60 39 54 94 33 44 80`;
 
 function main() {
-    console.log(input.split('\n').map((c) => {
+    return input.split('\n').map((c) => {
         const [winning, current] = c.split(': ')[1].split(' | ').map((ns) => ns.split(' ').filter(Boolean).map(Number));
         const count = current.filter((n) => winning.includes(n)).length;
         return count && (2 ** (count - 1));
-    }).reduce((p, c) => p + c, 0));
+    }).reduce((p, c) => p + c, 0);
 }
 
-console.time('');
-main();
-console.timeEnd('');
+if (process.argv.includes('--bench')) {
+    let sum = 0;
+    for (let i = 0; i < 10; i++) {
+        const start = performance.now();
+        main();
+        sum += performance.now() - start;
+    }
+    console.log(`${(sum / 10).toFixed(3)}ms`);
+} else {
+    console.log(main());
+}

@@ -212,7 +212,7 @@ function main() {
     const [rawSeeds, ...rawMaps] = input.split('\n\n');
     const seeds = rawSeeds.slice(7).split(' ').map(Number);
     const maps = rawMaps.map((p) => p.split('\n').slice(1).map((ns) => ns.split(' ').map(Number)));
-    console.log(Math.min(...seeds.map((s) => {
+    return Math.min(...seeds.map((s) => {
         let curr = s;
         map: for (const map of maps) {
             for (const [dStart, sStart, len] of map) {
@@ -223,9 +223,17 @@ function main() {
             }
         }
         return curr;
-    })));
+    }));
 }
 
-console.time('');
-main();
-console.timeEnd('');
+if (process.argv.includes('--bench')) {
+    let sum = 0;
+    for (let i = 0; i < 10; i++) {
+        const start = performance.now();
+        main();
+        sum += performance.now() - start;
+    }
+    console.log(`${(sum / 10).toFixed(3)}ms`);
+} else {
+    console.log(main());
+}

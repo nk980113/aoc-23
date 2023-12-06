@@ -105,7 +105,7 @@ function main() {
         green: 13,
         blue: 14,
     };
-    console.log(input.split('\n').map((line) => {
+    return input.split('\n').map((line) => {
         const [data, rounds] = line.split(': ');
         const id = Number(data.slice(5));
         let mult = 1;
@@ -120,9 +120,17 @@ function main() {
             }
         }
         return id * mult;
-    }).reduce((p, c) => p + c, 0));
+    }).reduce((p, c) => p + c, 0);
 }
 
-console.time('');
-main();
-console.timeEnd('');
+if (process.argv.includes('--bench')) {
+    let sum = 0;
+    for (let i = 0; i < 10; i++) {
+        const start = performance.now();
+        main();
+        sum += performance.now() - start;
+    }
+    console.log(`${(sum / 10).toFixed(3)}ms`);
+} else {
+    console.log(main());
+}
