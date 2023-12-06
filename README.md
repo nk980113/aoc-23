@@ -5,6 +5,7 @@
 |3|[Gear Ratios](https://adventofcode.com/2023/day/3/)|[03-1.js](03-1.js#L142)|2.245ms|2 *(note 2)*|[03-2.js](03-2.js#L142)|2.500ms|1.5|
 |4|[Scratchcards](https://adventofcode.com/2023/day/4)|[04-1.js](04-1.js#L218)|1.599ms|1|[04-2.js](04-2.js#L218)|1.725ms|1|
 |5|[If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)|[05-1.js](05-1.js#L211)|0.907ms|1.5|[05-2.js](05-2.js#L211)|2.283ms|3|
+|6|[Wait For It](https://adventofcode.com/2023/day/6)|[06-1.js](06-1.js#L4)|0.052ms|1.5 (note 3)|[06-2.js](06-2.js#L4)|0.016ms|1.5 (note 3)|
 
 # Difficulty
 1: easy peasy
@@ -21,4 +22,5 @@
 
 # Notes
 1. After getting the first part correct. Take Day 3 for example, if you got first part correct (i.e. you parsed the input correctly), the second part is not that hard
-2. Debugging this one is just pain, because the "edge case" is not included in example input
+2. Debugging this one is just pain because the "edge case" is not included in example input
+3. If you know some math, else it will be 3 for both today
