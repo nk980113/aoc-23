@@ -29,5 +29,5 @@
 3. If you know some math, else it will be 3 for one of two parts today
 4. Reasons below:
   - There are too many special cases that I can't know from any way
-  - I have no idea why my latest algorithm, compared to other methods, didn't work
+  - I have no idea why my latest algorithm, compared to other methods, is the only working algorithm
   - There's no way to know where my code went wrong: 1000 inputs, weird output formula that doesn't even take calculation results as parameter
