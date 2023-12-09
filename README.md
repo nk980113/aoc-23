@@ -7,6 +7,8 @@
 |5|[If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)|[05-1.js](05-1.js#L211)|0.907ms|1.5|[05-2.js](05-2.js#L211)|2.283ms|*3*|
 |6|[Wait For It](https://adventofcode.com/2023/day/6)|[06-1.js](06-1.js#L4)|0.052ms|1.5 *(note 3)*|[06-2.js](06-2.js#L4)|0.016ms|1|
 |7|[Camel Cards](https://adventofcode.com/2023/day/7)|[07-1.js](07-1.js#L1002)|3.688ms|2|[07-2.js](07-2.js#L1002)|4.005ms|**3.5** *(note 4)*|
+|8|[Haunted Wasteland](https://adventofcode.com/2023/day/8)|[08-1.js](08-1.js#L730)|2.304ms|1|-|-|***4***|
+|9|[Mirage Maintenance](https://adventofcode.com/2023/day/9)|[09-1.js](09-1.js#L202)|2.004ms|1|[09-2.js](09-2.js#L202)|2.299ms|1|
 
 # Difficulty
 1: easy peasy
@@ -21,7 +23,7 @@
 
 **3.5**: this makes me f\*cking exhausted
 
-***4*** (not met): how tf should I solve this
+***4***: not solved / solved after watching solution
 
 # Notes
 1. After getting the first part correct. Take Day 3 for example, if you got first part correct (i.e. you parsed the input correctly), the second part is not that hard
