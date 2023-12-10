@@ -1,3 +1,7 @@
+# Completion
+
+![Completion](completion.png)
+
 |Day|Title|Part 1 File|Part 1 Time|Part 1 Difficulty|Part 2 File|Part 2 Time|Part 2 Difficulty *(note 1)*|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1|[Trebuchet?!](https://adventofcode.com/2023/day/1)|[01-1.js](01-1.js#L1002)|1.154ms|1.5|[01-2.js](01-2.js#L1002)|17.189ms|2.5|
@@ -9,6 +13,7 @@
 |7|[Camel Cards](https://adventofcode.com/2023/day/7)|[07-1.js](07-1.js#L1002)|3.688ms|2|[07-2.js](07-2.js#L1002)|4.005ms|**3.5** *(note 4)*|
 |8|[Haunted Wasteland](https://adventofcode.com/2023/day/8)|[08-1.js](08-1.js#L730)|2.304ms|1|-|-|***4***|
 |9|[Mirage Maintenance](https://adventofcode.com/2023/day/9)|[09-1.js](09-1.js#L202)|2.004ms|1|[09-2.js](09-2.js#L202)|2.299ms|1|
+|10|[Pipe Maze](https://adventofcode.com/2023/day/10)|[10-1.js](09-1.js#L176)|34.580ms|2|-|-|*not tried yet*|
 
 # Difficulty
 1: easy peasy
