@@ -14,6 +14,7 @@
 |8|[Haunted Wasteland](https://adventofcode.com/2023/day/8)|[08-1.js](08-1.js#L730)|2.304ms|1|-|-|***4***|
 |9|[Mirage Maintenance](https://adventofcode.com/2023/day/9)|[09-1.js](09-1.js#L202)|2.004ms|1|[09-2.js](09-2.js#L202)|2.299ms|1|
 |10|[Pipe Maze](https://adventofcode.com/2023/day/10)|[10-1.js](09-1.js#L176)|34.580ms|2|-|-|*not tried yet*|
+|11|[Cosmic Expansion](https://adventofcode.com/2023/day/11)|[11-1.js](11-1.js#L142)|2.334ms|1.5|[11-2.js](11-2.js#L142)|2.901ms|1|
 
 # Difficulty
 1: easy peasy
