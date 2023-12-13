@@ -16,6 +16,7 @@
 |10|[Pipe Maze](https://adventofcode.com/2023/day/10)|[10-1.js](09-1.js#L176)|34.580ms|2|-|-|***4***|
 |11|[Cosmic Expansion](https://adventofcode.com/2023/day/11)|[11-1.js](11-1.js#L142)|2.334ms|1.5|[11-2.js](11-2.js#L142)|2.901ms|1|
 |12|[Hot Springs](https://adventofcode.com/2023/day/12)|-|-|4|-|-|-|
+|13|[Point of Incidence](https://adventofcode.com/2023/day/13)|[13-1.js](13-1.js#L1379)|2.007ms|1.5|[13-2.js](13-2.js#L1379)|1.742ms|1.5|
 
 # Difficulty
 1: easy peasy
