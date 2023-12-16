@@ -17,7 +17,8 @@
 |11|[Cosmic Expansion](https://adventofcode.com/2023/day/11)|[11-1.js](11-1.js#L142)|2.334ms|1.5|[11-2.js](11-2.js#L142)|2.901ms|1|
 |12|[Hot Springs](https://adventofcode.com/2023/day/12)|-|-|4|-|-|-|
 |13|[Point of Incidence](https://adventofcode.com/2023/day/13)|[13-1.js](13-1.js#L1379)|2.007ms|1.5|[13-2.js](13-2.js#L1379)|1.742ms|1.5|
-|14|[Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)|[14-1.js](14-1.js#L102)|1.316ms|1.5|-|-|at least *3*|
+|14|[Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)|[14-1.js](14-1.js#L102)|1.316ms|1.5|[14-2.js](14-2.js#L102)|378.575ms|*3*|
+|15|[Lens Library](https://adventofcode.com/2023/day/15)|[15-1.js](15-1.js#L3)|0.420ms|1|[15-2.js](15-2.js#L3)|2.533ms|1|
 
 # Difficulty
 1: easy peasy
